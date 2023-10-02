@@ -1,0 +1,528 @@
+body{
+    box-sizing: border-box;
+    margin:0px;
+}
+.container{
+    width:100%;
+
+}
+/* page 1 beginning */
+.bar{
+    border:1px solid #e67e22;
+    background-color: #e67e22;
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between;
+    height: 75px;
+    position: sticky;
+    top:0px;
+}
+.bar h1{
+    font-family: 'Berkshire Swash', cursive; 
+    display:flex; float:left; 
+    color: white; 
+}
+.bar nav{ 
+    float:right;
+}
+.bar a{
+    text-decoration: none; 
+    font-size: 22px; 
+    color: white; 
+    margin-left: 20px; 
+    margin-right:20px;
+}
+a:hover{color:rgb(0, 4, 255);}
+.text,.foodie{ 
+    width:100%;
+}
+#icon{
+    display: none;
+}
+.food1{
+    width:100%;
+    display:flex; 
+    
+}
+.foodie{
+    height:700px; 
+}
+.foodie img{
+    height:700px; 
+    width:100%; 
+    clip-path: polygon(100% 0%, 100% 54%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+}
+.text span{
+    font-family: 'Philosopher', sans-serif; 
+    font-size: 65px;}
+.text p{
+    display: flex; 
+    align-items: center; 
+    border:1px solid transparent;
+    font-size: 35px; }
+.text button{
+    margin-left:205px; 
+    height:75px; 
+    width:239px; 
+    font-size: 25px; 
+    font-family:'Times New Roman', Times, serif;
+    letter-spacing: 0.1em; 
+    border-radius:50px; 
+    border:rgb(1, 1, 1); 
+    cursor:grab;
+    background: linear-gradient(to left,#c0392b,#d35400,#f39c12); 
+    box-shadow: 4px 6px 5px black; }
+.text button:hover{
+    background: linear-gradient(to right,#341f97,#54a0ff,#00d2d3);
+    box-shadow: 14px 16px 15px black;
+}
+.bar h1{ 
+    margin-left: 20px; 
+    padding-right: 311px;                                                                                                                                                                                                                                                                           
+    font-size: 45px;
+}
+.bar a{
+    font-size: 22px; 
+    margin-left: 20px; 
+    margin-right:20px;}
+.bar nav{ 
+    display:flex; 
+    float:right;
+}
+.bar a{
+    text-decoration: none; 
+    color: white; 
+}
+a:hover{
+    color:rgb(0, 4, 255);
+}
+/* page 1 ending*/
+/* page 2 beginning*/
+.contain1 img, .contain2 img,.contain3 img,.contain4 img{
+    border:1px solid transparent; 
+    border-radius: 30px; 
+    object-fit: cover; 
+    height:190px; 
+    width:330px; 
+    margin: 0px; 
+    display: flex; }
+.container2{ 
+    border:1px solid transparent; 
+    background: linear-gradient(#d35400,#f1c40f) }
+.contain1{
+    border:1px solid transparent; 
+    height:600px; 
+    display:flex; 
+    flex-direction: row; }
+.contain2{
+    border:1px solid transparent; 
+    height:600px; 
+    display:flex; 
+    flex-direction: row;}
+.contain3{
+    border:1px solid transparent; 
+    height:600px; 
+    display:flex;
+    flex-direction: row;}
+.contain4{
+    border:1px solid transparent; 
+    height:600px; 
+    display:flex;
+    flex-direction: row;}
+.con1,.con2,.con3,.con4{
+    border:1px solid transparent; 
+    margin:20px 0px 20px 70px; }
+.cont1,.cont2,.cont3,.cont4{
+    border:1px solid transparent; 
+    margin:20px 0px 20px 70px;}
+.contn1,.contn2,.contn3,.contn4{
+    border:1px solid transparent; 
+    margin:20px 0px 20px 70px; }
+.container2 p{
+    font-size: 25px;}
+.container2 button{
+    margin-left:79px; 
+    height:55px; 
+    width:159px; 
+    font-size: 25px; 
+    font-family:'Times New Roman', Times, serif;
+    letter-spacing: 0.1em; 
+    border-radius:50px; 
+    border:white; 
+    cursor:grab;
+    background-color: white; 
+    color:#d35400; 
+    box-shadow: 4px 6px 5px black;
+}
+.container2 button:hover{
+    color:aliceblue; 
+    background:linear-gradient(#d35400,#f1c40f) ;}
+.container2 h2{
+    text-align: center; 
+    font-size: 37px;
+    color: white;
+    margin-right:80px;}
+.container2 span h1{
+    text-align:center; 
+    font-family: 'Sora', sans-serif; 
+    letter-spacing: 0.1em; 
+    color: aliceblue;}
+
+.container2 .contain1 h1, .container2 .contain2 h1,.container2 .contain3 h1{
+    text-decoration:dashed;}
+/* page 2 ending*/
+/* page 3 beginning*/
+.container3{
+    
+    background-image: url("D:/foodsie pics/coffee.jpg");
+    height:770px;
+}
+.container3 h1{
+    font-size: 78px;
+    text-align: center;
+    color:white;
+}
+.container3 .spawn{
+    border:3px solid transparent;
+    font-size: 34px;
+    text-align: center;
+    color:white;
+    margin:75px;
+}
+.container3 button{
+    margin-top:150px;
+    margin-left:605px; 
+    height:75px; 
+    width:239px; 
+    font-size: 25px; 
+    font-family:'Times New Roman', Times, serif;
+    letter-spacing: 0.1em; 
+    border-radius:50px; 
+    border:white; 
+    cursor:grab;
+    background: linear-gradient(to left,#ff00bf,#bb00ff,#2200ff); 
+    animation: bouncing 0.9s ease 0s infinite alternate both;
+    display:flex;
+    position:relative;
+    justify-content: center;
+    align-items: center;
+}
+@keyframes bouncing {
+    0% {
+        bottom:0;
+        box-shadow:0 0 19px rgba(0, 0, 0,0.5);
+    }
+    100% {
+        bottom:70px;
+        box-shadow:0 60px 20px rgba(0, 0, 0,0.1);
+    }
+
+}
+.container3 h1{
+    margin-top:0px;
+}
+.container3 button:hover{
+    background: linear-gradient(to right,#fe0303,#ffed29,#a6fe81);
+    box-shadow: 14px 16px 15px black;
+    animation:none;
+}
+/* page 3 ending*/
+/* page 4 beginning*/
+.contain11 img, .contain22 img{
+    border:1px solid transparent; 
+    object-fit: cover; 
+    height:110px; 
+    width:100px; 
+    margin: 0px; 
+    display: flex; 
+    padding-top: 45px; 
+    margin-right: 15px; }
+.container4{ 
+    border:1px solid transparent; 
+    background: black }
+.contain11{
+    border:1px solid transparent; 
+    height:400px; 
+    display:flex; 
+    flex-direction: row; }
+.contain22{
+    border:1px solid transparent; 
+    height:400px; 
+    display:flex; 
+    flex-direction: row; 
+    margin-bottom:255px;
+}
+.con41,.con42,.con43{
+    border:1px solid transparent; 
+    margin:20px; 
+    display:flex; 
+    flex-direction: row; 
+    background: linear-gradient(to right,#d35400,#e67e22,#f39c12,#f1c40f);  
+    border-radius: 50px;  }
+.cont41,.cont42,.cont43{
+    border:1px solid transparent; 
+    margin:20px; 
+    display:flex; 
+    flex-direction: row; 
+    background: linear-gradient(to right,#d35400,#e67e22,#f39c12,#f1c40f); 
+    border-radius: 50px;  }
+.con41 h1,.con42 h1,.con43 h1,.cont41 h1,.cont42 h1,.cont43 h1{
+    color:white;
+    padding-top: 55px;
+    font-size: 27px;
+    font-family: 'Cormorant Garamond', serif;
+    letter-spacing: 0.02em;
+}
+.container4 .head4 h1{
+    color:white;
+    text-align: center;
+    font-size: 47px;
+    padding:55px;
+}
+/* page 4 ending*/
+/* page 5 beginning*/
+.container5{ 
+    border:1px solid transparent; 
+    background: linear-gradient(to right,#d35400,#e67e22,#f39c12,#f1c40f);}
+.contain521{
+    display:flex;
+    flex-direction: row;
+    border:1px solid transparent; 
+    height:950px;
+    margin-left:5px;
+    }
+.contain521 img{
+    border:1px solid transparent;
+    object-fit: cover;
+    height:310px; 
+    width:400px; 
+    margin: 0px; 
+    display: flex; 
+    flex-direction: row;
+    margin-right: 15px;
+    }
+.con51, .con52, .con53{
+    border:1px solid transparent;
+    margin:10px;  
+    background-color: white;
+    width: 400px;
+    height:850px;
+}
+.container5 .head5 h1{
+    color:white;
+    text-align: center;
+    font-size: 47px;
+    padding:35px;
+}
+.container5 button{
+    margin-left:115px; 
+    height:55px; 
+    width:159px; 
+    font-size: 25px; 
+    font-family:'Times New Roman', Times, serif;
+    letter-spacing: 0.1em; 
+    border-radius:50px; 
+    border:white; 
+    cursor:grab;
+    background: linear-gradient(to left,#c0392b,#d35400,#f39c12);
+    color:white; 
+    box-shadow: 4px 6px 5px black
+}
+.container5 button:hover{
+    background: linear-gradient(to right,#c0392b,#d35400,#f39c12) ;
+}
+.container5 .subh5{
+    text-align: center;
+}
+.container5 .cost h1{
+    text-align: center;
+    margin:10px;
+    flex-direction: row;
+}
+.container5 .cost h2{
+    margin-top:0px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    text-decoration: line-through;
+    font-size: 43px;
+}
+.container5 .cost .dis{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.container5 .cost h3{
+    display:flex;
+    flex-direction: row;
+    color: rgb(14, 193, 14);
+    margin-left:5px;
+    font-size: 25px;
+}
+.container5 .cost h1 p{
+    margin:5px;
+    font-size: 34px;
+}
+.container5 .cost h1 span{
+    margin:5px;
+    color: #b71540;
+    font-size: 44px;
+}
+/* page 5 ending*/
+/* page 6 beginning*/
+.container6{
+    border: 1px solid black;
+    background-color: black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.container6 nav{
+    border:1px solid black;
+    margin:0px;
+    height:80px;
+    background-color: black;
+}
+.container6 a{
+    font-size: 20px;
+    text-decoration: none;
+    color:white;
+    margin-right: 53px;
+}
+/* mobile */
+@media (min-width: 600px) and (max-width: 1000px){
+    /* page 1 beginning*/
+    .bar nav{
+        display:none;
+    }
+    #icon{
+        display: inline-block;
+        margin-right: 100px;
+        font-size: 55px;
+    }
+    .bar{
+        height:175px;
+    }
+    .bar h1{
+        font-size:60px;
+    }
+    .foodie img{
+        display:none;
+    }
+    .foodie{
+        float:none;
+        height:0px;
+        width:0px;
+    }
+    .text p{
+        margin-left:120px;
+        font-size: 45px;
+    }
+    .text button{
+        margin-left:305px;
+        margin-top:70px;
+        margin-bottom:100px;
+    }
+    .text span{
+        font-size:80px;
+        margin-bottom: 70px;
+    }
+    /* page 1 ending*/
+    /* page 2 beginning*/
+    .contain1, .contain2, .contain3, .contain4{
+        display:flex;
+        flex-direction:column;
+        margin:0px 0px 350px 0px;
+        height:3000px;
+    }
+    .con1,.con2,.con3,.con4, .cont1,.cont2,.cont3,.cont4, .contn1,.contn2,.contn3,.contn4{
+        border:1px solid transparent; 
+        margin: 0px 0px 100px 0px;
+    }
+    .contain1 img, .contain2 img,.contain3 img,.contain4 img{
+            height: 450px;
+            width: 700px;
+            margin-left:100px;
+    }
+    .container2 .contain1 h1, .container2 .contain2 h1,.container2 .contain3 h1,.container2 .contain4 h1{
+        font-size:60px;
+        margin-left:60px;
+        color: white;
+    }
+    .container2 p{
+        font-size: 50px;
+        margin-left:15px;
+    }
+    .container2 h2{
+        font-size:55px;
+        margin-right:0px;
+    }
+    .container2 button{
+        margin-left:300px;
+        height:105px; 
+        width:300px; 
+        font-size: 40px;
+    }
+    /* page 2 ending*/
+    /* page 3 beginning*/
+    .container3{
+        height:1080px;
+    }
+    .container3 h1{
+        padding:30px;
+    }
+    .container3 span{
+        font-size: 45px;
+    }
+    .container3 button{
+        margin-left:350px;
+    }
+    /* page 3 ending*/
+    /* page 4 beginning*/
+    .con41 h1,.con42 h1,.con43 h1,.cont41 h1,.cont42 h1,.cont43 h1{
+        font-size: 24px;
+    }
+    /* page 4 ending*/
+    /* page 5 beginning*/
+    .contain521{
+        display:flex;
+        flex-direction: column;
+        height:2600px;
+    }
+    .contain521 img{
+        height:430px;
+        width:790px;
+    }
+    .con51, .con52, .con53{
+        width:790px;
+        height:820px;
+    }
+    .container5 .cost h1{
+        display:flex;
+        flex-direction:row;
+    }
+    .container5 button{
+        float:right;
+        margin: 0px 50px 200px 0px;
+    }
+    .container5 h3{
+        display:none;
+        font-size: 0px;
+    }
+    .container5 .cost h1 span{
+        margin-left:30px;
+    }
+    .contain521{
+        margin-left:80px;
+    }
+    /* page 5 ending*/
+    /* page 6 beginning*/
+    .container6 a{
+        font-size: 25px;
+        margin:0px 35px 0px 0px;
+    }
+    .container6 nav{
+        height:130px;
+        margin-top:30px;
+    }
+}
